@@ -1,0 +1,32 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 100%;
+}
+
+.input{
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+table{
+    width:100%;
+}
+
+th,td{
+    padding:6px;
+    text-align:left;
+}
+

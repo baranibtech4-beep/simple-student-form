@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Heading -->
+         <div>
+            <h1 style="text-align: center;">STUDENT FORM</h1>
+         </div>
+        
+        <!-- Form -->
+         <div>
+            <form action="" class="form" id="form">
+        <table border="0" style="padding: 5px;" >
+            <tr>
+                <td><strong>Name  </strong></td>
+                <td><input class="input" type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td><strong>Age  </strong></td>
+                <td><input class="input" type="text" id="age"></td>
+            </tr>
+            <tr>
+                <td><strong>Gender</strong></td>
+                <td><input  type="radio" name="gender" value="male"> Male
+                    <input  type="radio" name="gender" value="female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Course</strong></td>
+                <td>
+                 <select class="input" style="width:100%;">
+                 <option>JavaScript</option>
+                 <option>Python</option>
+                 <option>Java</option>
+                 <option>C++</option>
+                 </select>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Email</strong></td>
+                <td><input class="input" type="email" id="email"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="saveForm(event)" class="input" style="width:100%; background-color:aqua;border:none;padding:6px;font-size:medium;">Save</button></td>
+            </tr>
+        </table>
+    </form>
+         </div>
+        
+     <!--Output table  -->
+     <div>
+         <table border="1" style="width:50%;margin-top:20px;" id="studentTable">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Course</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+        </table>
+     </div>
+   
+    </div>
+</body>
+</html>
